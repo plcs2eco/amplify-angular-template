@@ -13,7 +13,7 @@ frontend:
         - npx ng version
     build:
       commands:
-        - npx ng build --configuration=production
+        - npx ng build --configuration=production --base-href /app/git-amplify-angular-template/
   artifacts:
     baseDirectory: dist/amplify-angular-template/browser
     files:
